@@ -10,6 +10,7 @@ class MainApp(App):
     def build(self):
         self.icon = "cal1_icon.png"
         self.operators = ["/", "*","+", "-"]
+        # self.operators = ["/", "*","+", "-","cos", "tan","sin", "pi","sqrt", "ln","e", "log"]
         self.last_was_operator = None
         self.last_button = None
         
@@ -26,6 +27,8 @@ class MainApp(App):
             ["4", "5", "6", "*"],
             ["1", "2", "3", "+"],
             [".", "0", "C", "-"],
+            # ["cos", "tan", "sin", "e"],
+           # ["pi","sqrt", "ln", "log"]
             
         ]
         
